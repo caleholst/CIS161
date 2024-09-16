@@ -42,7 +42,7 @@ int main()
 
         cout << "The account values for " << name << " are:\n";
 
-        for (int year = 1; year <= 10; ++year) {
+        for (int year = 1; year <= 10; ++year) { // for loop to calculate the values of savings 
             accountValue = (accountValue + rate * salary) * 1.08;
             cout << fixed << showpoint << setprecision(2) << accountValue << endl;
         }
